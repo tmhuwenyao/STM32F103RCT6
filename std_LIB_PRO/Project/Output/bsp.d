@@ -1,0 +1,30 @@
+.\output\bsp.o: ..\User\drives\src\bsp.c
+.\output\bsp.o: ..\User\drives\inc\bsp.h
+.\output\bsp.o: ..\Libraries\CMSIS\stm32f10x.h
+.\output\bsp.o: ..\Libraries\CMSIS\core_cm3.h
+.\output\bsp.o: D:\Program Files\keilV5\ARM\ARMCC\Bin\..\include\stdint.h
+.\output\bsp.o: ..\Libraries\CMSIS\system_stm32f10x.h
+.\output\bsp.o: ..\User\stm32f10x_conf.h
+.\output\bsp.o: ..\Libraries\FWlib\inc\stm32f10x_can.h
+.\output\bsp.o: ..\Libraries\CMSIS\stm32f10x.h
+.\output\bsp.o: ..\Libraries\FWlib\inc\stm32f10x_exti.h
+.\output\bsp.o: ..\Libraries\FWlib\inc\stm32f10x_gpio.h
+.\output\bsp.o: ..\Libraries\FWlib\inc\stm32f10x_rcc.h
+.\output\bsp.o: ..\Libraries\FWlib\inc\stm32f10x_spi.h
+.\output\bsp.o: ..\Libraries\FWlib\inc\stm32f10x_tim.h
+.\output\bsp.o: ..\Libraries\FWlib\inc\stm32f10x_usart.h
+.\output\bsp.o: ..\Libraries\FWlib\inc\misc.h
+.\output\bsp.o: ..\User\drives\inc\bsp_usart.h
+.\output\bsp.o: D:\Program Files\keilV5\ARM\ARMCC\Bin\..\include\stdio.h
+.\output\bsp.o: ..\User\drives\inc\bsp_led.h
+.\output\bsp.o: ..\User\drives\inc\bsp_can.h
+.\output\bsp.o: ..\User\drives\inc\bsp_systick.h
+.\output\bsp.o: ..\User\drives\inc\bsp_key.h
+.\output\bsp.o: ..\User\drives\inc\bsp_timer.h
+.\output\bsp.o: ..\User\drives\inc\bsp_spi.h
+.\output\bsp.o: ..\User\drives\inc\bsp_iic.h
+.\output\bsp.o: ..\User\app\inc\dht11.h
+.\output\bsp.o: ..\User\app\inc\rc522.h
+.\output\bsp.o: ..\User\app\inc\oleddisplay.h
+.\output\bsp.o: ..\User\app\inc\externalcomm.h
+.\output\bsp.o: ..\User\app\inc\eeprom.h

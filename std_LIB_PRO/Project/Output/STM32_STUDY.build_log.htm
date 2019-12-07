@@ -1,0 +1,158 @@
+<html>
+<body>
+<pre>
+<h1>礦ision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: μVision V5.23.0.0
+Copyright (C) 2017 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: A Microsoft, Microsoft, LIC=CRMWF-6MFPM-GQS0H-WSN08-R87HA-4LFDU
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Professional  Version: 5.23
+Toolchain Path:  D:\Program Files\keilV5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 4 (build 422)
+Assembler:       Armasm.exe V5.06 update 4 (build 422)
+Linker/Locator:  ArmLink.exe V5.06 update 4 (build 422)
+Library Manager: ArmAr.exe V5.06 update 4 (build 422)
+Hex Converter:   FromElf.exe V5.06 update 4 (build 422)
+CPU DLL:         SARMCM3.DLL V5.23
+Dialog DLL:      DCM.DLL V1.15.0.0
+Target DLL:      Segger\JL2CM3.dll V2.99.23.0
+Dialog DLL:      TCM.DLL V1.27.0.0
+ 
+<h2>Project:</h2>
+F:\HENRY\我的工程\STM32F103_RCT6\Software\STM32F103RCT6-V0.3\Project\STM32F103RCT6.uvprojx
+Project File Date:  06/10/2019
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 4 (build 422)', folder: 'D:\Program Files\keilV5\ARM\ARMCC\Bin'
+Build target 'STM32F103RCT6'
+assembling startup_stm32f10x_hd.s...
+compiling system_stm32f10x.c...
+compiling core_cm3.c...
+compiling misc.c...
+compiling stm32f10x_can.c...
+compiling stm32f10x_adc.c...
+compiling stm32f10x_usart.c...
+compiling stm32f10x_spi.c...
+compiling stm32f10x_tim.c...
+compiling stm32f10x_gpio.c...
+compiling stm32f10x_exti.c...
+compiling stm32f10x_rcc.c...
+compiling main.c...
+compiling bsp.c...
+compiling stm32f10x_it.c...
+compiling bsp_can.c...
+compiling bsp_key.c...
+compiling bsp_led.c...
+compiling bsp_spi.c...
+compiling bsp_timer.c...
+compiling ST_string.c...
+compiling bsp_systick.c...
+compiling bsp_iic.c...
+..\User\drives\src\bsp_iic.c(180): warning:  #1-D: last line of file ends without a newline
+  }
+..\User\drives\src\bsp_iic.c: 1 warning, 0 errors
+compiling bsp_usart.c...
+compiling bsp_adc.c...
+..\User\drives\src\bsp_adc.c(1): warning:  #1-D: last line of file ends without a newline
+  #include "bsp_adc.h"
+..\User\drives\src\bsp_adc.c: 1 warning, 0 errors
+compiling oleddisplay.c...
+compiling dht11.c...
+compiling rc522.c...
+..\User\app\src\rc522.c(103): warning:  #68-D: integer conversion resulted in a change of sign
+  		status = 
+I_ERR;   
+..\User\app\src\rc522.c(139): warning:  #68-D: integer conversion resulted in a change of sign
+           {   status = 
+I_ERR;    }
+..\User\app\src\rc522.c(175): warning:  #68-D: integer conversion resulted in a change of sign
+      {   status = 
+I_ERR;    }
+..\User\app\src\rc522.c(205): warning:  #68-D: integer conversion resulted in a change of sign
+      {   status = 
+I_ERR;   }
+..\User\app\src\rc522.c(234): warning:  #68-D: integer conversion resulted in a change of sign
+      {   status = 
+I_ERR;   }
+..\User\app\src\rc522.c(258): warning:  #68-D: integer conversion resulted in a change of sign
+      {   status = 
+I_ERR;   }
+..\User\app\src\rc522.c(269): warning:  #68-D: integer conversion resulted in a change of sign
+          {   status = 
+I_ERR;   }
+..\User\app\src\rc522.c(312): warning:  #68-D: integer conversion resulted in a change of sign
+  	char status = 
+I_ERR;
+..\User\app\src\rc522.c(361): warning:  #68-D: integer conversion resulted in a change of sign
+               {   status = 
+I_NOTAGERR;   }
+..\User\app\src\rc522.c(380): warning:  #68-D: integer conversion resulted in a change of sign
+  		 	 status = 
+I_ERR;  
+..\User\app\src\rc522.c(527): warning:  #68-D: integer conversion resulted in a change of sign
+     else{ return -1; }
+..\User\app\src\rc522.c(553): warning:  #68-D: integer conversion resulted in a change of sign
+      {   status = 
+I_ERR;   }
+..\User\app\src\rc522.c(564): warning:  #514-D: pointless comparison of unsigned integer with a negative constant
+          if (status != 
+I_ERR)
+..\User\app\src\rc522.c(570): warning:  #68-D: integer conversion resulted in a change of sign
+  	 return 
+I_ERR;  
+..\User\app\src\rc522.c(583): warning:  #68-D: integer conversion resulted in a change of sign
+  		status = 
+I_ERR;  
+..\User\app\src\rc522.c(610): warning:  #68-D: integer conversion resulted in a change of sign
+      {   status = 
+I_ERR;   }
+..\User\app\src\rc522.c(614): warning:  #223-D: function "memcpy" declared implicitly
+          memcpy(ucComMF522Buf, pValue, 4);
+..\User\app\src\rc522.c(620): warning:  #514-D: pointless comparison of unsigned integer with a negative constant
+          if (status != 
+I_ERR)
+..\User\app\src\rc522.c(634): warning:  #68-D: integer conversion resulted in a change of sign
+  			 status = 
+I_ERR;   
+..\User\app\src\rc522.c: 19 warnings, 0 errors
+compiling smokedetect.c...
+compiling externalcomm.c...
+..\User\app\src\externalcomm.c(115): warning:  #177-D: function "MODS_SendAckErr"  was declared but never referenced
+  static void MODS_SendAckErr(uint8_t _ucErrCode)
+..\User\app\src\externalcomm.c(134): warning:  #177-D: function "MODS_SendAckOk"  was declared but never referenced
+  static void MODS_SendAckOk(void)
+..\User\app\src\externalcomm.c: 2 warnings, 0 errors
+compiling eeprom.c...
+..\User\app\src\eeprom.c(224): warning:  #177-D: variable "buff"  was declared but never referenced
+  	uint8_t buff[20] = {0XAA,0X3B,0X2B,0X4C,0X45,0X18,0X97,0XF1,0XE5,0X69,
+..\User\app\src\eeprom.c: 1 warning, 0 errors
+compiling flash.c...
+..\User\app\src\flash.c(1): warning:  #1-D: last line of file ends without a newline
+  #include "flash.h"
+..\User\app\src\flash.c: 1 warning, 0 errors
+compiling esp8266.c...
+..\User\app\inc\esp8266.h(5): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\User\app\src\esp8266.c: 1 warning, 0 errors
+compiling nrf24l01.c...
+compiling oledfont.c...
+compiling stepmotor.c...
+..\User\app\src\stepmotor.c(1): warning:  #1-D: last line of file ends without a newline
+  #include "stepmotor.h"
+..\User\app\src\stepmotor.c: 1 warning, 0 errors
+linking...
+Program Size: Code=9018 RO-data=850 RW-data=48 ZI-data=2608  
+FromELF: creating hex file...
+".\Output\STM32_STUDY.axf" - 0 Error(s), 27 Warning(s).
+
+<h2>Collection of Component include folders:</h2>
+  .\RTE\_STM32F103RCT6
+  D:\Program Files\keilV5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include
+
+<h2>Collection of Component Files used:</h2>
+Build Time Elapsed:  00:00:10
+</pre>
+</body>
+</html>
